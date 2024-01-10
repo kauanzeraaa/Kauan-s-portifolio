@@ -163,6 +163,12 @@ section_subtitle{
 }
 
 /* Large devices */
+@media screen and (max-width: 768px){
+  .container{
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
 
 /* Medium devices */
 
