@@ -18,6 +18,7 @@
 
   --big-font-size: 3.5rem;
   --mediu-font-size: 2.8rem;
+  --memedium-font-size: 2.3rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -165,17 +166,37 @@ section_subtitle{
 }
 
 /* Large devices */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   .container{
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+
+  .button{
+    padding: 1rem 1.75rem;
+  }
+
+  .button_icon{
+    width: 22px;
+    height: 22px;
+  }
 }
 
 /* Medium devices */
+@media screen and (max-width: 768px){
+  .section{
+    padding: 2rem 0 4rem;
+  }
+}
+
+@media screen and (max-width: 576px){
+}
 
 /* Small devices */
 @media screen and (max-width: 350px){
+  :root{
+    --big-font-size: 2.25rem;
+  }
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
