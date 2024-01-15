@@ -16,7 +16,7 @@
 
 }
 
-.nav_log,
+.nav_logo,
 .nav_toggle{
     color: var(--tittle-color);
     font-weight: var(--font-medium);
@@ -43,9 +43,10 @@
     display: none;
 }
 
-.active-link,
+.active-link:hover,
+.nav_logo:hover,
 .nav_link:hover{
-    color: var(--tittle-color-dark);
+    color: var(--purple-color);
 }
 
 @media screen and (max-width: 768px){
