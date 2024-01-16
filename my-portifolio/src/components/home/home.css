@@ -139,7 +139,31 @@
 @media screen and (max-width: 576px){
     .home_title{
         font-size: var(--memedium-font-size);
-        margin-left: var(--mb-1);
+    }
+
+    .home_data{
+        padding-left: 1.5rem;
+    }
+
+    .home_social{
+        position: absolute;
+        grid-template-columns: repeat(3, max-content);
+        top: 2.5rem;
+        left: 36%;
+        column-gap: 1rem;
+    }
+
+    .home_img{
+        
+        position: relative;
+        left: 36%;  
+    }
+}
+
+@media screen and (max-width: 685px) and (min-width: 567px){
+    .home_img{
+        left: 75%;
+        transform: translateX(-50%);
     }
 }
 
@@ -148,6 +172,7 @@
     .home_img{
         width: 180px;
         height: 180px;
+        
     }
 
     .home_title{
