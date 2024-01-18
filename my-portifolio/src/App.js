@@ -5,6 +5,7 @@ import Home from './components/home/Home.jsx';
 import Skills from './components/skills/Skills.jsx';
 import About from './components/about/About.jsx';
 
+
 function App() {
   return (
       <>
