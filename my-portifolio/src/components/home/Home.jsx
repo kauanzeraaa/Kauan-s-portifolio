@@ -15,7 +15,6 @@ const Home = () => {
                 <Data />
             </div>
 
-
         </div>
     </section>
   )

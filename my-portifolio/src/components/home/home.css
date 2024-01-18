@@ -17,9 +17,14 @@
 
 .button{
     background-color: #663399;
+    /* transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;  */
+    
+    transition: background-color .4s ease-in-out, color .4s ease-in-out;
 }
 .button:hover{
-    background-color: #4B0082 ;
+    background-color: #151618;
 }
 
 .home_social-icon{
@@ -65,7 +70,6 @@
 
     animation: profile_animate 6s ease-in-out infinite;
 }
-
 
 @keyframes profile_animate {
     0% {
