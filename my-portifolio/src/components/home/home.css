@@ -17,10 +17,6 @@
 
 .button{
     background-color: #663399;
-    /* transition-property: background-color;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;  */
-    
     transition: background-color .4s ease-in-out, color .4s ease-in-out;
 }
 .button:hover{
@@ -29,11 +25,13 @@
 
 .home_social-icon{
     font-size: 1.25rem;
-    color: var(--tittle-color);
+    color: #4B0082;
 }
 
 .home_social-icon:hover{
-    color: #4B0082;
+    color: #3a383b;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transition: all .3s ease-in-out;
 }
 
 .home_title{
@@ -64,10 +62,8 @@
     justify-self: center;
     width: 300px;
     height: 300px;
-
     border-radius: 200px;
     border: 5px solid #fff;
-
     animation: profile_animate 6s ease-in-out infinite;
 }
 

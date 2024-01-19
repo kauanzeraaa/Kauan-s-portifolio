@@ -4,6 +4,7 @@ import Header from './components/header/Header.jsx';
 import Home from './components/home/Home.jsx';
 import Skills from './components/skills/Skills.jsx';
 import About from './components/about/About.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Home />
          <About />
           <Skills />
+          <Contact />
       </main>
       </>
   );

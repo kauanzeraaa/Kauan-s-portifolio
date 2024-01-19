@@ -17,11 +17,12 @@
 }
 
 .about_box{
-    background-color: var(--container-color);
+    background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.75rem;
     text-align: center;
     padding: 1.25rem;
+    border-radius: 1.25rem;
+    box-shadow: 5px 7px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-icon{
