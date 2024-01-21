@@ -16,6 +16,11 @@
     column-gap: 1rem;
 }
 
+.nav_logo{
+    width: 45px;
+    height: 45px;
+}
+
 .nav_item{
     transition-property: color;
 }
@@ -24,7 +29,6 @@
     transition-timing-function: ease-in-out;
 }
 
-.nav_logo,
 .nav_toggle{
     color: var(--tittle-color);
     font-weight: var(--font-medium);
@@ -116,6 +120,12 @@
     .nav_close,
     .nav_toggle{
         display: block;
+    }
+
+    .nav_logo{
+        width: 37px;
+        height: 37px;
+    
     }
 }
 

@@ -20,6 +20,10 @@
     margin-bottom: var(--mb-1-5);
 }
 
+.skills_container{
+    margin-top: 2rem;
+}
+
 .skills_box{
     display: flex;
     justify-content: center;
@@ -64,9 +68,9 @@
   /* Medium devices */
   
   @media screen and (max-width: 576px){
-    
     .skills_content{
         padding: 1.5rem;
+        margin-top: 0rem
     }
   }
   

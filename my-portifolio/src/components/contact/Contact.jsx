@@ -10,7 +10,6 @@ function Contact() {
         <div className="contact_container container grid">
             <div className="contact_content">
                 
-
                 <div className="contact_info">
                     <div className="contact_card">
                         <i className="uil uil-envelope contact_card-icon"></i>

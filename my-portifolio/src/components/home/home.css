@@ -151,19 +151,12 @@
     }
 }
 
-@media screen and (max-width: 685px) and (min-width: 567px){
-    .home_img{
-        left: 75%;
-        transform: translateX(-50%);
-    }
-}
-
 /* Small devices */
 @media screen and (max-width: 350px){
     .home_img{
         width: 180px;
         height: 180px;
-        
+        left: 42%;
     }
 
     .home_title{

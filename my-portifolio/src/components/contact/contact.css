@@ -6,7 +6,7 @@
     height: 100vh;
     grid-template-columns: repeat(1, max-content);
     column-gap: 6rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .contact_title{
@@ -110,7 +110,6 @@
     background-color: #f4f4f4;
 }
 
-
 .contact_form-tag{
     position: absolute;
     top: -0.75rem;
@@ -133,6 +132,9 @@
         grid-template-columns: 1fr;
         row-gap: 3rem;
     }
+    .section_subtitle{
+        margin-bottom: 3rem;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -151,5 +153,11 @@
   
   /* Small devices */
 @media screen and (max-width: 350px){
+    .section_title{
+        margin-top: 2rem;
+    }
 
+    .section_subtitle{
+        margin-bottom: 2rem;
+    }
 }
