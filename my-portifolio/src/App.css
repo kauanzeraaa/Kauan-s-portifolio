@@ -122,7 +122,7 @@ img{
 .section_subtitle{
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .section_title,
@@ -198,6 +198,9 @@ section_subtitle{
 }
 
 @media screen and (max-width: 576px){
+  .section_subtitle{
+    margin-bottom: var(--mb-2);
+  }
 }
 
 /* Small devices */

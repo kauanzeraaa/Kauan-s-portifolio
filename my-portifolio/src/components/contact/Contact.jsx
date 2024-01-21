@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section className="contact section" id="contact">
         <h2 className="section_title">Contact Me</h2>
-        <span className="section_subtitle">Ready to chat?</span>
+        <span className="section_subtitle-contact">Ready to chat?</span>
 
         <div className="contact_container container grid">
             <div className="contact_content">
@@ -78,7 +78,7 @@ function Contact() {
                         className='contact_form-input' 
                         placeholder="Insert the subject"/>
                     </div>
-                    
+
                 </form>
             </div>
             <button href="#contact" className="button button--flex">Sand Message</button>
