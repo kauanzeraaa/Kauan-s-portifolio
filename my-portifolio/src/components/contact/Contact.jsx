@@ -69,6 +69,16 @@ function Contact() {
                         className='contact_form-input' 
                         placeholder="Insert your email"/>
                     </div>
+
+                    <div className="contact_form-div-message">
+                        <label className="contact_form-tag">Message</label>
+                        <input 
+                        type="text" 
+                        name='subject' 
+                        className='contact_form-input' 
+                        placeholder="Insert the subject"/>
+                    </div>
+                    
                 </form>
             </div>
             <button href="#contact" className="button button--flex">Sand Message</button>

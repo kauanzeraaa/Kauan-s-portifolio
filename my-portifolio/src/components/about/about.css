@@ -48,6 +48,7 @@
 
 .section_subtitle{
     text-align: center;
+    
 }
 
 /* Large devices */
@@ -90,6 +91,10 @@
     }
     .button{
         margin-left: 0; 
+    }
+
+    .section_subtitle{
+        margin-bottom: 2rem;
     }
   }
   

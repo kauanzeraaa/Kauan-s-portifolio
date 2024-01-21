@@ -95,6 +95,12 @@
     height: 4rem;
 }
 
+.contact_form-div-message{
+    position: relative;
+    height: 4rem;
+    margin-top: var(--mb-2);
+}
+
 .contact_form-input{
     position: absolute;
     top: 0;
